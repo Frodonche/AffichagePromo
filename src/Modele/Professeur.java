@@ -2,12 +2,11 @@ package Modele;
 
 public class Professeur extends Enseignant{
 	
-	public Professeur(String nom, String prenom, String matiere, int nbHeures, int salaireH){
+	public Professeur(String nom, String prenom, String matiere, int nbHeures){
 		this.nom = nom;
 		this.prenom = prenom;
 		this.matiere = matiere;
 		this.nbHeures = nbHeures;
-		this.salaireH = salaireH;
 	}
 
 	@Override
